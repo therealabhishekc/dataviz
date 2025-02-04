@@ -21,7 +21,7 @@ unemp_data = get_unemp_data()
 
 # Set the title that appears at the top of the page.
 """
-# :earth_americas: Countries Key Statistics
+# :earth_americas: The Global Stats Buffet
 
 """
 
@@ -39,7 +39,7 @@ def on_change(key):
 if "selected_option" not in st.session_state:
     st.session_state.selected_option = 0
 
-options_list = ["GDP", "Unemployment", "Population"]
+options_list = ["GDP", "Unemployment"]
 
 selected3 = option_menu(
     menu_title=None,
@@ -79,5 +79,3 @@ if st.session_state.selected_option == 0:
     render_gdp(gdp_df)
 if st.session_state.selected_option == 1:
     render_ump(unemp_data)
-if st.session_state.selected_option == 2:
-    render_pop()
