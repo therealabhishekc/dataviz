@@ -51,7 +51,7 @@ selected3 = option_menu(
     on_change=on_change,
     key="nav_bar",
     styles={
-        "container": {"padding": "0!important", "background-color": "#fafafa"},
+        "container": {"padding": "0!important", "background-color": "#0e1117"},
         "icon": {"display": "none"},
         "nav-link": {
             "font-size": "18px",
@@ -59,16 +59,16 @@ selected3 = option_menu(
             "text-align": "center",
             "margin": "0px",
             "white-space": "pre-wrap",
-            "border-radius": "5px",
+            "border-radius": "8px",
             "--hover-color": "#eee",
             "padding": "7px",
-            "color": "black",
-            "background": "#f2f2f2",
+            "color": "white",
+            "background": "#262730",
         },
         "nav-link-selected": {
             "background": "linear-gradient(to right, #db3030, #FF4B4B)",
             "font-weight": "bold",
-            "color": "black",
+            "color": "white",
         },
     },
 )
