@@ -174,7 +174,7 @@ def render_ump(unemp_data):
                 if first_unemployment == 0:
                     growth = "n/a"  # Avoid division by zero
                 else:
-                    growth = f"{-(last_unemployment / first_unemployment):,.2f}%"
+                    growth = f"{(last_unemployment - first_unemployment):,.2f}%"
 
                 delta_color = "inverse"
                 last_value = f"{last_unemployment:,.3f}%"
