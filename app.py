@@ -21,7 +21,7 @@ unemp_data = get_unemp_data()
 
 # Set the title that appears at the top of the page.
 """
-# :earth_americas: The Global Stats Buffet
+# The Global Stats Buffet
 
 """
 
@@ -66,7 +66,7 @@ selected3 = option_menu(
             "background": "#f2f2f2",
         },
         "nav-link-selected": {
-            "background": "linear-gradient(to right, #4A92C6 , #787FD6)",
+            "background": "linear-gradient(to right, #db3030, #FF4B4B)",
             "font-weight": "bold",
             "color": "black",
         },
